@@ -46,14 +46,6 @@ def forgot_password_url():
 def profile_url():
     return "https://stellarburgers.nomoreparties.site/account/profile"
 
-@pytest.fixture()
-def registration_data():
-    registration_data = {
-        "name": "Misolka",
-        "email": "alina_sitalova_16_025@yandex.ru",
-        "password": "neowick"
-    }
-    return registration_data
 
 @pytest.fixture()
 def invalid_registration_data():
